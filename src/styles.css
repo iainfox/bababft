@@ -28,3 +28,8 @@ header h1, header p {
 header p {
     font-size: x-small;
 }
+
+main {
+    margin: 1em auto;
+    max-width: 65%;
+}
