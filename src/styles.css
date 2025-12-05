@@ -2,3 +2,29 @@ body {
     margin: 0;
     background-color: #308ecc;
 }
+
+header {
+    text-align: center;
+    width: fit-content;
+    margin: auto;
+    padding: 10px;
+    border-radius: 15px;
+    
+    width: 50%;
+
+    background: linear-gradient(#e6e1c5, #bfba92);
+
+    @supports (corner-shape: squircle) {
+        border-radius: 30px;
+        corner-shape: squircle;
+    }
+}
+
+header h1, header p {
+    margin: 0;
+    font-weight: normal;
+}
+
+header p {
+    font-size: x-small;
+}
